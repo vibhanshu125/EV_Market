@@ -1,0 +1,31 @@
+Vehicle_ID,Model_Name,Manufacturer,Manufacturing_Country,Vehicle_Category,Battery_Technology,Battery_Capacity_kWh,Driving_Range_km,Charging_Speed_kW,Price_USD,Annual_Sales,Customer_Rating
+EV01,Model Y,Tesla,United States,SUV,NCA,75,530,250,44990,320000,4.8
+EV02,Model 3,Tesla,United States,Sedan,LFP,60,438,170,38990,260000,4.7
+EV03,Cybertruck,Tesla,United States,Truck,NCA,123,547,250,79990,45000,4.4
+EV04,Semi,Tesla,United States,Truck,NCA,500,800,350,180000,15000,4.5
+EV05,Atto 3,BYD,China,SUV,LFP,60,420,150,32000,240000,4.6
+EV06,Seal,BYD,China,Sedan,LFP,82,570,150,35000,190000,4.7
+EV07,Dolphin,BYD,China,Hatchback,LFP,45,340,100,24000,175000,4.5
+EV08,Seagull,BYD,China,Hatchback,Sodium-Ion,30,305,65,12000,145000,4.3
+EV09,K9 Transit,BYD,China,Electric Bus,LFP,324,400,200,290000,35000,4.6
+EV10,ID.4,Volkswagen,Germany,SUV,NMC,77,450,135,41000,160000,4.4
+EV11,ID.3,Volkswagen,Germany,Hatchback,NMC,58,425,120,36000,115000,4.3
+EV12,ID.7,Volkswagen,Germany,Sedan,NMC,86,615,200,52000,65000,4.6
+EV13,Nexon EV,Tata Motors,India,SUV,LFP,40,380,60,18500,95000,4.5
+EV14,Tiago EV,Tata Motors,India,Hatchback,LFP,24,275,50,11000,85000,4.4
+EV15,Starbus EV,Tata Motors,India,Electric Bus,LFP,250,300,150,165000,20000,4.3
+EV16,Ioniq 5,Hyundai,South Korea,SUV,NMC,77,488,350,43000,130000,4.7
+EV17,Ioniq 6,Hyundai,South Korea,Sedan,NMC,77,580,350,42500,90000,4.6
+EV18,Kona Electric,Hyundai,South Korea,SUV,NMC,65,420,100,34000,70000,4.4
+EV19,S1 Pro,Ola Electric,India,Two-Wheeler,NMC,4,195,7,1600,155000,4.2
+EV20,S1 Air,Ola Electric,India,Two-Wheeler,Sodium-Ion,3,150,5,1300,110000,4.1
+EV21,R1S,Rivian,United States,SUV,NCA,135,560,220,78000,55000,4.7
+EV22,R1T,Rivian,United States,Truck,NCA,135,530,220,73000,45000,4.6
+EV23,ET7 Solid,NIO,China,Sedan,Solid-State,150,1000,300,68000,40000,4.9
+EV24,ES6,NIO,China,SUV,Solid-State,100,625,250,54000,60000,4.8
+EV25,i4 eDrive40,BMW,Germany,Sedan,NMC,84,485,205,53000,80000,4.7
+EV26,iX xDrive50,BMW,Germany,SUV,Solid-State,111,610,200,87000,50000,4.8
+EV27,EX30,Volvo,Sweden,SUV,LFP,69,440,153,36000,75000,4.6
+EV28,FH Electric,Volvo,Sweden,Truck,NMC,540,350,250,210000,25000,4.5
+EV29,7900 Electric,Volvo,Sweden,Electric Bus,NMC,470,380,200,310000,15000,4.5
+EV30,CE 04,BMW,Germany,Two-Wheeler,NMC,9,130,15,12000,35000,4.4

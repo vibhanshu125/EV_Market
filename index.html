@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric Vehicle Market Performance & Insights</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #0f172a; color: #f8fafc; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .hero { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); padding: 60px 0; border-bottom: 1px solid #334155; }
+        .card { background-color: #1e293b; border: 1px solid #334155; color: #f8fafc; }
+        .badge-ev { background-color: #10b981; color: #052e16; font-weight: 600; }
+        .dashboard-container { background: #ffffff; border-radius: 12px; padding: 15px; min-height: 750px; color: #000; }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-secondary">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-success" href="#">⚡ EV Market Analytics</a>
+            <span class="navbar-text text-light"></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero text-center">
+        <div class="container">
+            <span class="badge badge-ev px-3 py-2 rounded-pill mb-3">Tableau BI Capstone Project</span>
+            <h1 class="display-5 fw-bold mb-3">Electric Vehicle Market Performance & Insights</h1>
+            <p class="lead text-secondary mx-auto" style="max-width: 800px;">
+                Interactive Business Intelligence Dashboard & Story analyzing global EV sales, battery technology efficiency (LFP, NMC, NCA, Sodium-Ion, Solid-State), manufacturing distribution, and customer satisfaction.
+            </p>
+        </div>
+    </section>
+
+    <!-- Scenarios Overview -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4 mb-5">
+                <div class="col-md-4">
+                    <div class="card h-100 p-4">
+                        <h5 class="text-success fw-bold">Scenario 1: Emily Johnson</h5>
+                        <p class="small text-secondary mb-2">EV Market Strategy Director</p>
+                        <p class="mb-0">Evaluates annual sales across vehicle categories, identifies top manufacturers, and compares driving range against customer ratings.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 p-4">
+                        <h5 class="text-info fw-bold">Scenario 2: David Chen</h5>
+                        <p class="small text-secondary mb-2">Automotive BI Manager</p>
+                        <p class="mb-0">Analyzes manufacturer market share, battery technology dominance, and global country-wise manufacturing distribution.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 p-4">
+                        <h5 class="text-warning fw-bold">Scenario 3: Dr. Sarah Williams</h5>
+                        <p class="small text-secondary mb-2">Sustainable Mobility Researcher</p>
+                        <p class="mb-0">Compares battery capacity vs. range efficiency, customer adoption heatmaps, and regional clean-tech manufacturing trends.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Embedded Tableau Dashboard -->
+            <h3 class="fw-bold mb-3">Interactive Tableau Dashboard</h3>
+            <div class="dashboard-container shadow-lg text-center d-flex align-items-center justify-content-center w-100">
+                
+                <div class='tableauPlaceholder' id='viz1793284041963' style='position: relative; width: 100%;'>
+                    <noscript>
+                        <a href='#'>
+                            <img alt='EV Market Performance and insights ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;El&#47;ElectricVechileMarketPerformanceInsights&#47;Dashboard1&#47;1_rss.png' style='border: none' />
+                        </a>
+                    </noscript>
+                    <object class='tableauViz' style='display:none;'>
+                        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                        <param name='embed_code_version' value='3' /> 
+                        <param name='site_root' value='' />
+                        <param name='name' value='ElectricVechileMarketPerformanceInsights&#47;Dashboard1' />
+                        <param name='tabs' value='no' />
+                        <param name='toolbar' value='yes' />
+                        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;El&#47;ElectricVechileMarketPerformanceInsights&#47;Dashboard1&#47;1.png' /> 
+                        <param name='animate_transition' value='yes' />
+                        <param name='display_static_image' value='yes' />
+                        <param name='display_spinner' value='yes' />
+                        <param name='display_overlay' value='yes' />
+                        <param name='display_count' value='yes' />
+                        <param name='language' value='en-US' />
+                    </object>
+                </div>
+                <script type='text/javascript'>
+                    var divElement = document.getElementById('viz1793284041963');
+                    var vizElement = divElement.getElementsByTagName('object')[0];
+                    if ( divElement.offsetWidth > 800 ) { 
+                        vizElement.style.width='100%';
+                        vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                    } else if ( divElement.offsetWidth > 500 ) { 
+                        vizElement.style.width='100%';
+                        vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                    } else { 
+                        vizElement.style.width='100%';
+                        vizElement.style.height='1977px';
+                    }
+                    var scriptElement = document.createElement('script');
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                </script>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-4 text-center border-top border-secondary text-secondary small">
+        <p class="mb-0">© 2026 Electric Vehicle Market Performance & Insights | Developed by Vibhanshu Saxena</p>
+    </footer>
+
+</body>
+</html>
